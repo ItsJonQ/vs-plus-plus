@@ -1,0 +1,52 @@
+{
+  "name": "vs-plus-plus",
+  "displayName": "VS++",
+  "description": "VS Code Themes based on Dark/Light+",
+  "version": "0.0.1",
+  "publisher": "itsjonq",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/itsjonq/vs-plus-plus"
+  },
+  "keywords": [
+    "VS",
+    "VS Code",
+    "dark",
+    "light"
+  ],
+  "scripts": {
+    "git:push": "git push --follow-tags",
+    "postversion": "npm run release",
+    "release": "vsce publish && npm run git:push"
+  },
+  "galleryBanner": {
+    "color": "#1e222a",
+    "theme": "dark"
+  },
+  "engines": {
+    "vscode": "^1.17.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Dark+ (Plus)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dark-plus-plus.json"
+      },
+      {
+        "label": "Monokai+ (Plus)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/monokai-plus-plus.json"
+      },
+      {
+        "label": "Light+ (Plus)",
+        "uiTheme": "vs",
+        "path": "./themes/light-plus-plus.json"
+      }
+    ]
+  }
+}

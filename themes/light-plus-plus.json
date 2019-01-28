@@ -1,0 +1,28 @@
+{
+  "name": "Light+ (Plus)",
+  "type": "dark",
+  "include": "../base/light_plus.json",
+  "colors": {
+    "statusBar.foreground": "#000000ff",
+    "statusBar.background": "#00000000",
+    "statusBar.noFolderBackground": "#00000000",
+    "statusBar.debuggingBackground": "#00000000"
+  },
+  "tokenColors": [
+    {
+      "name": "Comment",
+      "scope": "comment",
+      "settings": {
+        "foreground": "#737e83",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "Double-Slashed Comment",
+      "scope": "comment.line.double-slash",
+      "settings": {
+        "foreground": "#737e83"
+      }
+    }
+  ]
+}
