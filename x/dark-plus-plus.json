@@ -1,0 +1,71 @@
+{
+  "name": "Dark+ (Plus)",
+  "type": "dark",
+  "include": "../base/dark_plus.json",
+  "colors": {
+    "statusBar.background": "#00000000",
+    "statusBar.noFolderBackground": "#00000000",
+    "statusBar.debuggingBackground": "#00000000"
+  },
+  "tokenColors": [
+    {
+      "name": "Variable and parameter name",
+      "scope": [
+        "variable",
+        "meta.definition.variable.name",
+        "support.variable",
+        "entity.name.variable"
+      ],
+      "settings": {
+        "foreground": "#d5d9da"
+      }
+    },
+    {
+      "name": "Function declarations",
+      "scope": [
+        "entity.name.function",
+        "support.function",
+        "support.constant.handlebars"
+      ],
+      "settings": {
+        "foreground": "#f0d296"
+      }
+    },
+    {
+      "name": "Strings",
+      "scope": [
+        "string",
+        "string.tag",
+        "string.value",
+        "string.regexp",
+
+        "markup.inline.raw"
+      ],
+      "settings": {
+        "foreground": "#addb7b"
+      }
+    },
+    {
+      "name": "Punctuation Definition String",
+      "scope": "punctuation.definition.string",
+      "settings": {
+        "foreground": "#ffffff"
+      }
+    },
+    {
+      "name": "Comment",
+      "scope": "comment",
+      "settings": {
+        "foreground": "#737e83",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "Double-Slashed Comment",
+      "scope": "comment.line.double-slash",
+      "settings": {
+        "foreground": "#737e83"
+      }
+    }
+  ]
+}
