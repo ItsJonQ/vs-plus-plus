@@ -1,7 +1,7 @@
 {
   "name": "vs-plus-plus",
   "displayName": "VS++",
-  "description": "VS Code Themes based on Dark/Light+",
+  "description": "Enhanced version of the default VS Code Dark/Light+ themes",
   "version": "0.0.1",
   "publisher": "itsjonq",
   "license": "SEE LICENSE IN LICENSE.md",
