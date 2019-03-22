@@ -1,6 +1,6 @@
 {
   "name": "vs-plus-plus",
-  "displayName": "VS++",
+  "displayName": "VS Plus Plus",
   "description": "Enhanced version of the default VS Code Dark/Light+ themes",
   "version": "0.0.1",
   "publisher": "itsjonq",
@@ -51,5 +51,10 @@
         "path": "./themes/light-plus-plus.json"
       }
     ]
+  },
+  "__metadata": {
+    "id": "89f83543-a55f-4aa6-aef4-520fe573b426",
+    "publisherDisplayName": "itsjonq",
+    "publisherId": "d0f6f832-3d7e-4817-a926-ba597a76128b"
   }
 }
