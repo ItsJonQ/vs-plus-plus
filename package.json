@@ -2,7 +2,7 @@
   "name": "vs-plus-plus",
   "displayName": "VS++",
   "description": "Enhanced version of the default VS Code Dark/Light+ themes",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "publisher": "itsjonq",
   "license": "SEE LICENSE IN LICENSE.md",
   "repository": {
@@ -13,7 +13,9 @@
     "VS",
     "VS Code",
     "dark",
-    "light"
+    "light",
+    "plus",
+    "plusplus"
   ],
   "scripts": {
     "git:push": "git push --follow-tags",
@@ -21,7 +23,7 @@
     "release": "vsce publish && npm run git:push"
   },
   "galleryBanner": {
-    "color": "#1e222a",
+    "color": "#1e1e1e",
     "theme": "dark"
   },
   "engines": {
@@ -30,6 +32,7 @@
   "categories": [
     "Themes"
   ],
+  "icon": "images/vs-plus-plus.png",
   "contributes": {
     "themes": [
       {
